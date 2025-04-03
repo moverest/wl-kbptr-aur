@@ -1,6 +1,6 @@
 pkgbase = wl-kbptr
 	pkgdesc = Control the mouse pointer with the keyboard on Wayland
-	pkgver = 0.2.3
+	pkgver = 0.3.0
 	pkgrel = 1
 	url = https://github.com/moverest/wl-kbptr
 	arch = x86_64
@@ -10,7 +10,9 @@ pkgbase = wl-kbptr
 	depends = cairo
 	depends = wayland
 	depends = libxkbcommon
-	source = https://github.com/moverest/wl-kbptr/archive/refs/tags/v0.2.3.tar.gz
-	sha256sums = 0d03f83d94b6acfdb07f3ee3760c1abc207eef5a8346af38978d6bcb46ac58b8
+	depends = opencv
+	depends = pixman
+	source = https://github.com/moverest/wl-kbptr/archive/refs/tags/v0.3.0.tar.gz
+	sha256sums = 69775029acb8ff7d814a2868afe22e72b8c9c99cbb35b0acf57eccd3609b089c
 
 pkgname = wl-kbptr
