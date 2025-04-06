@@ -1,7 +1,7 @@
 # Maintainer: Clément Martinez <me at moverest dot xyz>
 pkgname=wl-kbptr
 pkgver=0.3.0
-pkgrel=0
+pkgrel=1
 url="https://github.com/moverest/wl-kbptr"
 pkgdesc="Control the mouse pointer with the keyboard on Wayland"
 arch=('x86_64')
